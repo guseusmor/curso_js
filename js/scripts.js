@@ -200,52 +200,53 @@
 
 // console.log(alunos.slice(-2));
 
-var funcionario = {
-    'nome': 'Pedro Souza Gomes',
-    'ano_nasc': 1972,
-    'cpf': '111.111.111.11',
-    'cargo': 'Analista de Sistemas'
-};
+// var funcionario = {
+//     'nome': 'Pedro Souza Gomes',
+//     'ano_nasc': 1972,
+//     'cpf': '111.111.111.11',
+//     'cargo': 'Analista de Sistemas'
+// };
 
-console.log(funcionario['nome']);
-console.log(funcionario.ano_nasc);
+// console.log(funcionario['nome']);
+// console.log(funcionario.ano_nasc);
 
-funcionario.cargo = "Gerente de Projeto";
-funcionario.cnh = "1205150454084";
+// funcionario.cargo = "Gerente de Projeto";
+// funcionario.cnh = "1205150454084";
 
-console.log(funcionario.cargo);
-console.log(funcionario.cnh);
+// console.log(funcionario.cargo);
+// console.log(funcionario.cnh);
 
 
-var cursos = [
-    {
-        'titulo': 'Aprenda programação em Python 3 com facilidade do zero',
-        'avaliacoes': 680,
-        'alunos': 2300,
-        'categorias': ['programacao', 'tecnologia']
-    },
+// var cursos = [
+//     {
+//         'titulo': 'Aprenda programação em Python 3 com facilidade do zero',
+//         'avaliacoes': 680,
+//         'alunos': 2300,
+//         'categorias': ['programacao', 'tecnologia']
+//     },
 
-    {
-        'titulo': 'Aprenda PHP e faça sites dinâmicos',
-        'avaliacoes': 180,
-        'alunos': 350,
-        'categorias': ['desenvolvimento web', 'programacao']
-    },
+//     {
+//         'titulo': 'Aprenda PHP e faça sites dinâmicos',
+//         'avaliacoes': 180,
+//         'alunos': 350,
+//         'categorias': ['desenvolvimento web', 'programacao']
+//     },
 
-    {
-        'titulo': 'Excel do Zero ao Avançado',
-        'avaliacoes': 420,
-        'alunos': 1800,
-        'categorias': ['produtividade', 'gestão']
-    }
+//     {
+//         'titulo': 'Excel do Zero ao Avançado',
+//         'avaliacoes': 420,
+//         'alunos': 1800,
+//         'categorias': ['produtividade', 'gestão']
+//     }
     
-];
+// ];
 
-console.log(cursos[1]['categorias'][0] + "\n");
-console.log(cursos[1].categorias[0]);
+// console.log(cursos[1]['categorias'][0] + "\n");
+// console.log(cursos[1].categorias[0]);
 
-cursos[2].categorias[1] = "Administração de empresas";
+// cursos[2].categorias[1] = "Administração de empresas";
 
-console.log(cursos[2].categorias[1]);
+// console.log(cursos[2].categorias[1]);
 
-console.log(cursos);
+// console.log(cursos);
+
