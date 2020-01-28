@@ -200,6 +200,9 @@
 
 // console.log(alunos.slice(-2));
 
+
+///////////////////////////////////////////Aula 13 - ////////////////////////////////////////
+
 // var funcionario = {
 //     'nome': 'Pedro Souza Gomes',
 //     'ano_nasc': 1972,
@@ -238,7 +241,7 @@
 //         'alunos': 1800,
 //         'categorias': ['produtividade', 'gestão']
 //     }
-    
+
 // ];
 
 // console.log(cursos[1]['categorias'][0] + "\n");
@@ -250,3 +253,21 @@
 
 // console.log(cursos);
 
+///////////////////////////////////////////Aula 14 - ////////////////////////////////////////
+// var aluno = {
+//     'nome': 'Maria',
+//     'sobrenome': 'Pereira',
+//     'ano_nasc': 1992,
+//     'nome_completo': function () {
+//         var nomeCompleto = this.nome + ' ' + this.sobrenome;
+//         return nomeCompleto;
+//     },
+//     'idade_aluno': function(){
+//         var ano_atual = new Date().getFullYear();
+//         var idade = ano_atual - this.ano_nasc;
+//         return idade;
+//     }
+// };
+
+// console.log(aluno.nome_completo());
+// console.log(aluno.idade_aluno());
